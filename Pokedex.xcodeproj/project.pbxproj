@@ -82,15 +82,11 @@
 		};
 		7B16C3A82E0607EB003C07A7 /* PokedexTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = PokedexTests;
 			sourceTree = "<group>";
 		};
 		7B16C3B22E0607EB003C07A7 /* PokedexUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = PokedexUITests;
 			sourceTree = "<group>";
 		};
@@ -135,7 +131,6 @@
 				57D2EC7A07C4C8FCA26F5866 /* Pods-PokedexTests.debug.xcconfig */,
 				8FE025EE831D33F72C09D975 /* Pods-PokedexTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

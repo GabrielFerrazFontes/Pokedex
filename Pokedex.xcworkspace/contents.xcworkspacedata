@@ -10,4 +10,10 @@
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:CoreNetwork/CoreNetwork.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CoreNetworkProtocols/CoreNetworkProtocols.xcodeproj">
+   </FileRef>
 </Workspace>
