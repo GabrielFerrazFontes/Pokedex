@@ -36,7 +36,7 @@ final class PokedexScreen: UIView {
         colletionView.translatesAutoresizingMaskIntoConstraints = false
         colletionView.delegate = collectionDelegate
         colletionView.dataSource = collectionDataSource
-//        colletionView.register(<#T##cellClass: AnyClass?##AnyClass?#>, forCellWithReuseIdentifier: <#T##String#>)
+        colletionView.register(PokemonViewCell.self, forCellWithReuseIdentifier: PokemonViewCell.identifier)
         colletionView.backgroundView = activityIndicator
         activityIndicator.startAnimating()
 
