@@ -16,4 +16,7 @@
    <FileRef
       location = "group:CoreNetworkProtocols/CoreNetworkProtocols.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:PokedexList/PokedexList.xcodeproj">
+   </FileRef>
 </Workspace>
