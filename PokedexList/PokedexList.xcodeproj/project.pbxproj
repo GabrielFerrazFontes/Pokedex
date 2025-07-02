@@ -10,6 +10,8 @@
 		7B29B4042E15BDFF00554C18 /* PokedexList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B29B3FA2E15BDFF00554C18 /* PokedexList.framework */; };
 		7B29B4182E15BE7A00554C18 /* UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B29B4172E15BE7A00554C18 /* UI.framework */; };
 		7B29B4192E15BE7A00554C18 /* UI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B29B4172E15BE7A00554C18 /* UI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B29B4232E15C15B00554C18 /* CoreNetworkProtocols.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B29B4222E15C15B00554C18 /* CoreNetworkProtocols.framework */; };
+		7B29B4242E15C15B00554C18 /* CoreNetworkProtocols.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B29B4222E15C15B00554C18 /* CoreNetworkProtocols.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				7B29B4242E15C15B00554C18 /* CoreNetworkProtocols.framework in Embed Frameworks */,
 				7B29B4192E15BE7A00554C18 /* UI.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -40,6 +43,7 @@
 		7B29B3FA2E15BDFF00554C18 /* PokedexList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PokedexList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B29B4032E15BDFF00554C18 /* PokedexListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokedexListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B29B4172E15BE7A00554C18 /* UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B29B4222E15C15B00554C18 /* CoreNetworkProtocols.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CoreNetworkProtocols.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B29B4232E15C15B00554C18 /* CoreNetworkProtocols.framework in Frameworks */,
 				7B29B4182E15BE7A00554C18 /* UI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,6 +102,7 @@
 		7B29B4162E15BE7A00554C18 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7B29B4222E15C15B00554C18 /* CoreNetworkProtocols.framework */,
 				7B29B4172E15BE7A00554C18 /* UI.framework */,
 			);
 			name = Frameworks;
