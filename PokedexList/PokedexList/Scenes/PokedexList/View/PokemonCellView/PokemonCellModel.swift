@@ -14,3 +14,11 @@ struct PokemonCellModel {
 }
 
 extension PokemonCellModel: Equatable { }
+
+extension PokemonCellModel {
+    static let defaultCell = PokemonCellModel(
+        name: "Missigno",
+        number: "#777",
+        image: Data()
+    )
+}
