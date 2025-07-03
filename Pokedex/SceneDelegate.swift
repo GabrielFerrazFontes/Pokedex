@@ -6,17 +6,19 @@
 //
 
 import UIKit
-import PokedexList
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
+    var appCoordinator: AppCoordinator?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = PokedexFactory.make(api: Injector.make())
+            let navigationViewController = UINavigationController()
+            appCoordinator = AppCoordinator(navigationController: navigationViewController)
+            appCoordinator?.start()
+            window.rootViewController = navigationViewController
             self.window = window
             window.makeKeyAndVisible()
         }

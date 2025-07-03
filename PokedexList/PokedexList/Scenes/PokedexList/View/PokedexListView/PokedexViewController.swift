@@ -20,6 +20,7 @@ final class PokedexViewController: UIViewController {
 
     override func loadView() {
         view = screen
+        title =  "Pokedex"
     }
 
     required init?(coder: NSCoder) {
